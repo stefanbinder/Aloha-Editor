@@ -1,6 +1,6 @@
 @import "aloha-reset.css";
 @import "aloha-sidebar.css";
-@import "../lib/vendor/repository-browser/css/repository-browser.css";
+@import "../lib/vendor/repository-browser/src/main/css/repository-browser.css";
 
 .aloha-editable {
 	min-height: 1.2em;

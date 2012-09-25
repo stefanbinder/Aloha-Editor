@@ -150,7 +150,7 @@ define([
 					language     : {title: '',     width: 30,  sorttype: 'text'},
 					translations : {title: '',     width: 350, sorttype: 'text'}
 				},
-				rootPath : Aloha.settings.baseUrl + '/vendor/repository-browser/'
+				rootPath : Aloha.settings.baseUrl + '/vendor/repository-browser/src/main/'
 			};
 
 			this.browser = new LinkBrowser(config);

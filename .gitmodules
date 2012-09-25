@@ -1,0 +1,3 @@
+[submodule "src/lib/vendor/repository-browser"]
+	path = src/lib/vendor/repository-browser
+	url = git@github.com:gentics/repository-browser.git

@@ -49,14 +49,15 @@
 		// For the repository browser
 		'PubSub': 'vendor/pubsub/js/pubsub-unminified',
 		'Class': 'vendor/class',
-		'RepositoryBrowser': 'vendor/repository-browser/js/repository-browser-unminified',
+		'RepositoryBrowser': 'vendor/repository-browser/src/main/js/lib/repository-browser',
 		'jstree': 'vendor/jquery.jstree',              // Mutates jquery
 		'jqgrid': 'vendor/jquery.jqgrid',              // Mutates jquery
 		'jquery-layout': 'vendor/jquery.layout',     // Mutates jquery
 		'jqgrid-locale-en': 'vendor/grid.locale.en', // Mutates jqgrid
 		'jqgrid-locale-de': 'vendor/grid.locale.de', // Mutates jqgrid
-		'repository-browser-i18n-de': 'vendor/repository-browser/js/repository-browser-unminified',
-		'repository-browser-i18n-en': 'vendor/repository-browser/js/repository-browser-unminified',
+		'repository-browser-i18n-de': 'vendor/repository-browser/src/main/js/nls/de/i18n',
+		'repository-browser-i18n-en': 'vendor/repository-browser/src/main/js/nls/en/i18n',
+
 
 		// Shortcuts for all common plugins
 		"ui": "../plugins/common/ui/lib",

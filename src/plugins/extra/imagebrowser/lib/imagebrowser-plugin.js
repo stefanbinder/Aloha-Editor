@@ -68,7 +68,7 @@ define([
 
 			this._imageBrowserButton.show(false);
 
-			this.url = Aloha.getAlohaUrl() + '/../plugins/extra/imagebrowser/';
+			this.url = Aloha.getAlohaUrl() + '/../plugins/extra/imagebrowser/src/main/';
 
 			Aloha.bind( 'aloha-image-selected', function ( event, rangeObject ) {
 				browser._imageBrowserButton.show(true);
@@ -150,7 +150,7 @@ define([
 					icon : { title: '',     width: 75,  sortable: false, resizable: false },
 					name : { title: 'Name', width: 320, sorttype: 'text' }
 				},
-				rootPath : Aloha.settings.baseUrl + '/vendor/repository-browser/'
+				rootPath : Aloha.settings.baseUrl + '/vendor/repository-browser/src/main/'
 			};
 			this.browser = new ImageBrowser( config );
 		}
